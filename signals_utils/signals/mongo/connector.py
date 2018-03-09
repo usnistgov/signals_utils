@@ -1,18 +1,20 @@
-"""
-Connect a signal/signals to a receiver.
+""" Connect a signal/signals to a receiver.
 """
 from signals_utils.commons.exceptions import SignalsError
 
 
 def connect(receiver, signal, sender):
-    """ Connecting receiver to signals. Used by passing in the receiver (method/function),
-    signal (or list of signals) and the sender (class to watch):
+    """ Connecting receiver to signals. Used by passing in the receiver (method/function), signal (or list of signals)
+    and the sender (class to watch).
+
+    Example::
 
         connector.connect(receiver, signals.post_save, MyModel)
         connector.connect(receiver, [signals.post_save, signals.post_delete], MyModel)
 
         def receiver(sender, document, **kwargs):
             ...
+
     Args:
         receiver: Method/Function to receive the signal/signals.
         signal: Signal or list of signals.

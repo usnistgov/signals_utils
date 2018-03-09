@@ -1,4 +1,4 @@
-""" All constants needed for xml operation, can be called outside of this package
+""" All constants needed for signal operations, can be called outside of this package
 """
 from mongoengine import signals
 

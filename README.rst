@@ -1,4 +1,5 @@
-signals_utils
+=============
+Signals Utils
 =============
 
 Mongo signals utils for the curator core project.
