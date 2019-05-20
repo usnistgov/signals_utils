@@ -22,7 +22,7 @@ chdir(normpath(join(abspath(__file__), pardir)))
 
 setup(
     name="signals_utils",
-    version="1.0.0",
+    version="1.1.0.dev1",
     description="Mongo signals utils for the curator core project",
     long_description=long_desc,
     author="NIST IT Lab",
