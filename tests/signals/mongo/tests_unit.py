@@ -1,6 +1,8 @@
 from unittest.case import TestCase
+
 from mock.mock import patch
 from mongoengine import signals
+
 from signals_utils.commons import exceptions
 from signals_utils.signals.mongo import connector
 from signals_utils.signals.mongo import decorator
