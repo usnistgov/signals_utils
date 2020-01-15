@@ -1,7 +1,7 @@
-signals.mongo
+tests.signals
 =============
 
-.. automodule:: signals.mongo
+.. automodule:: tests.signals
     :members:
     :undoc-members:
     :show-inheritance:
@@ -9,6 +9,4 @@ signals.mongo
 .. toctree::
     :maxdepth: 2
 
-    decorator
-    connector
-    signals
+    mongo/index

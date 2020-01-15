@@ -1,7 +1,7 @@
-signals_utils
-=============
+tests
+=====
 
-.. automodule:: signals_utils
+.. automodule:: tests
     :members:
     :undoc-members:
     :show-inheritance:
@@ -9,7 +9,4 @@ signals_utils
 .. toctree::
     :maxdepth: 2
 
-    readme
     signals/index
-    commons/index
-    tests/index
