@@ -24,7 +24,9 @@ def receiver(signal, sender):
     Returns:
          The decorator.
     """
+
     def _decorator(func):
         connect(func, signal, sender)
         return func
+
     return _decorator
