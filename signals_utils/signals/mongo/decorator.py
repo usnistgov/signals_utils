@@ -4,7 +4,7 @@ from signals_utils.signals.mongo.connector import connect
 
 
 def receiver(signal, sender):
-    """ A decorator for connecting receivers to signals. Used by passing in the signal (or list of signals) and the
+    """A decorator for connecting receivers to signals. Used by passing in the signal (or list of signals) and the
     sender (class to watch).
 
     Example::

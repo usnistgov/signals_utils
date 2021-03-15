@@ -4,7 +4,7 @@ from signals_utils.commons.exceptions import SignalsError
 
 
 def connect(receiver, signal, sender):
-    """ Connecting receiver to signals. Used by passing in the receiver (method/function), signal (or list of signals)
+    """Connecting receiver to signals. Used by passing in the receiver (method/function), signal (or list of signals)
     and the sender (class to watch).
 
     Example::
